@@ -19,7 +19,7 @@ namespace ventacelular
         {
             frmbaterias f = new frmbaterias();
             f.MdiParent = this;
-            f.Text = "baterias";
+            f.Text = "BATERIAS";
             f.Show();
         }
 
@@ -27,8 +27,29 @@ namespace ventacelular
         {
             placas f = new placas();
             f.MdiParent = this;
-            f.Text = "baterias";
+            f.Text = "PLACAS";
             f.Show();
+        }
+
+        private void pANTALLASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pantallas f = new pantallas();
+            f.MdiParent = this;
+            f.Text = "PANTALLAS";
+            f.Show();
+        }
+
+        private void aCCESORIOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            accesorios f = new accesorios();
+            f.MdiParent = this;
+            f.Text = "ACCESORIOS";
+            f.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

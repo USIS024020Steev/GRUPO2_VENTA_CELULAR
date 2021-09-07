@@ -69,28 +69,30 @@ namespace ventacelular
             // bATERÍASToolStripMenuItem
             // 
             this.bATERÍASToolStripMenuItem.Name = "bATERÍASToolStripMenuItem";
-            this.bATERÍASToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bATERÍASToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.bATERÍASToolStripMenuItem.Text = "BATERÍAS";
             this.bATERÍASToolStripMenuItem.Click += new System.EventHandler(this.bATERÍASToolStripMenuItem_Click);
             // 
             // pLACASToolStripMenuItem
             // 
             this.pLACASToolStripMenuItem.Name = "pLACASToolStripMenuItem";
-            this.pLACASToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pLACASToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.pLACASToolStripMenuItem.Text = "PLACAS";
             this.pLACASToolStripMenuItem.Click += new System.EventHandler(this.pLACASToolStripMenuItem_Click);
             // 
             // pANTALLASToolStripMenuItem
             // 
             this.pANTALLASToolStripMenuItem.Name = "pANTALLASToolStripMenuItem";
-            this.pANTALLASToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pANTALLASToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.pANTALLASToolStripMenuItem.Text = "PANTALLAS";
+            this.pANTALLASToolStripMenuItem.Click += new System.EventHandler(this.pANTALLASToolStripMenuItem_Click);
             // 
             // aCCESORIOSToolStripMenuItem
             // 
             this.aCCESORIOSToolStripMenuItem.Name = "aCCESORIOSToolStripMenuItem";
             this.aCCESORIOSToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
             this.aCCESORIOSToolStripMenuItem.Text = "ACCESORIOS";
+            this.aCCESORIOSToolStripMenuItem.Click += new System.EventHandler(this.aCCESORIOSToolStripMenuItem_Click);
             // 
             // dISPOSITIVOSToolStripMenuItem
             // 
@@ -119,7 +121,8 @@ namespace ventacelular
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form2";
+            this.Text = "VENTA DE CELULARES";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

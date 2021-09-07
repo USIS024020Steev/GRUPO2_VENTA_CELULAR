@@ -1,7 +1,7 @@
 ﻿
 namespace ventacelular
 {
-    partial class placas
+    partial class pantallas
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace ventacelular
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(placas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pantallas));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,34 +50,34 @@ namespace ventacelular
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(88, 45);
+            this.label1.Location = new System.Drawing.Point(42, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 59);
+            this.label1.Size = new System.Drawing.Size(123, 59);
             this.label1.TabIndex = 1;
-            this.label1.Text = "PLACA IPHONE";
+            this.label1.Text = "PANTALLA IPHONE";
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(325, 45);
+            this.label2.Location = new System.Drawing.Point(297, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 59);
+            this.label2.Size = new System.Drawing.Size(118, 59);
             this.label2.TabIndex = 2;
-            this.label2.Text = "PLACA HUAWEI";
+            this.label2.Text = "PANTALLA HUAWEI";
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(554, 45);
+            this.label3.Location = new System.Drawing.Point(553, 36);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 59);
+            this.label3.Size = new System.Drawing.Size(126, 59);
             this.label3.TabIndex = 3;
-            this.label3.Text = "BATERIA SAMSUNG";
+            this.label3.Text = "PANTALLA SAMSUNG";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(69, 107);
+            this.pictureBox1.Location = new System.Drawing.Point(32, 98);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(142, 151);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -87,7 +87,7 @@ namespace ventacelular
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(301, 107);
+            this.pictureBox2.Location = new System.Drawing.Point(283, 98);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(142, 151);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -97,7 +97,7 @@ namespace ventacelular
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(530, 107);
+            this.pictureBox3.Location = new System.Drawing.Point(543, 98);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(142, 151);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -109,7 +109,7 @@ namespace ventacelular
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(53, 272);
+            this.label5.Location = new System.Drawing.Point(23, 261);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(158, 35);
             this.label5.TabIndex = 8;
@@ -120,7 +120,7 @@ namespace ventacelular
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(301, 272);
+            this.label4.Location = new System.Drawing.Point(273, 261);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(158, 35);
             this.label4.TabIndex = 9;
@@ -131,17 +131,17 @@ namespace ventacelular
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(530, 272);
+            this.label6.Location = new System.Drawing.Point(543, 261);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(158, 35);
             this.label6.TabIndex = 10;
-            this.label6.Text = "PRECIO: 65$";
+            this.label6.Text = "PRECIO: 80$";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Gold;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(69, 326);
+            this.button1.Location = new System.Drawing.Point(33, 310);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 71);
             this.button1.TabIndex = 11;
@@ -153,7 +153,7 @@ namespace ventacelular
             // 
             this.button2.BackColor = System.Drawing.Color.Gold;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(311, 326);
+            this.button2.Location = new System.Drawing.Point(283, 310);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 71);
             this.button2.TabIndex = 12;
@@ -165,7 +165,7 @@ namespace ventacelular
             // 
             this.button3.BackColor = System.Drawing.Color.Gold;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(540, 326);
+            this.button3.Location = new System.Drawing.Point(553, 310);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(132, 71);
             this.button3.TabIndex = 13;
@@ -173,7 +173,7 @@ namespace ventacelular
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // placas
+            // pantallas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,9 +191,8 @@ namespace ventacelular
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "placas";
-            this.Text = "placas";
-            this.Load += new System.EventHandler(this.placas_Load);
+            this.Name = "pantallas";
+            this.Text = "pantallas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
