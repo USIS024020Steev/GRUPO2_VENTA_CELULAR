@@ -99,6 +99,7 @@ namespace ventacelular
             this.dISPOSITIVOSToolStripMenuItem.Name = "dISPOSITIVOSToolStripMenuItem";
             this.dISPOSITIVOSToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
             this.dISPOSITIVOSToolStripMenuItem.Text = "DISPOSITIVOS";
+            this.dISPOSITIVOSToolStripMenuItem.Click += new System.EventHandler(this.dISPOSITIVOSToolStripMenuItem_Click);
             // 
             // aYUDAToolStripMenuItem
             // 

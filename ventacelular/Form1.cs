@@ -51,5 +51,13 @@ namespace ventacelular
         {
 
         }
+
+        private void dISPOSITIVOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dispositivos f = new dispositivos();
+            f.MdiParent = this;
+            f.Text = "DISPOSITIVOS";
+            f.Show();
+        }
     }
 }
