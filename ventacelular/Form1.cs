@@ -59,5 +59,13 @@ namespace ventacelular
             f.Text = "DISPOSITIVOS";
             f.Show();
         }
+
+        private void aCERCADEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            acercade f = new acercade();
+            f.MdiParent = this;
+            f.Text = "ACERCA DE";
+            f.Show();
+        }
     }
 }

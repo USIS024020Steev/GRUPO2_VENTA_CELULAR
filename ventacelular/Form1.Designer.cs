@@ -112,6 +112,7 @@ namespace ventacelular
             this.aCERCADEToolStripMenuItem.Name = "aCERCADEToolStripMenuItem";
             this.aCERCADEToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
             this.aCERCADEToolStripMenuItem.Text = "ACERCA DE";
+            this.aCERCADEToolStripMenuItem.Click += new System.EventHandler(this.aCERCADEToolStripMenuItem_Click);
             // 
             // Form1
             // 
